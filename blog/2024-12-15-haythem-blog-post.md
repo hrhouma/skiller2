@@ -25,3 +25,4 @@ For example, use JSX to create an interactive button:
 <button onClick={() => alert('button clicked!')}>Click me!</button>
 <button onClick={() => alert('button clicked!')}>Click me!</button>
 <button onClick={() => alert('button clicked!')}>Click me!</button>
+<button onClick={() => alert('button clicked!')}>Click me!</button>
