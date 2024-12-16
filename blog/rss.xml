@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>skiller2 Blog</title>
+        <title>Skiller2 Blog</title>
         <link>https://hrhouma.github.io/skiller2/blog</link>
-        <description>skiller2 Blog</description>
+        <description>Skiller2 Blog</description>
         <lastBuildDate>Sun, 15 Dec 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>

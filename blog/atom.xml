@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hrhouma.github.io/skiller2/blog</id>
-    <title>skiller2 Blog</title>
+    <title>Skiller2 Blog</title>
     <updated>2024-12-15T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://hrhouma.github.io/skiller2/blog"/>
-    <subtitle>skiller2 Blog</subtitle>
+    <subtitle>Skiller2 Blog</subtitle>
     <icon>https://hrhouma.github.io/skiller2/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[MDX Blog Post 2]]></title>
