@@ -1,49 +1,38 @@
-import { themes as prismThemes } from 'prism-react-renderer';
-import type { Config } from '@docusaurus/types';
-import type * as Preset from '@docusaurus/preset-classic';
+import { Config } from '@docusaurus/types';
 
 const config: Config = {
-  title: 'skiller2',
-  tagline: 'A modern static website generator',
-  favicon: 'img/favicon.ico',
-
-  url: 'https://hrhouma.github.io',
-  baseUrl: '/skiller2/',
-  organizationName: 'hrhouma',
-  projectName: 'skiller2',
-  deploymentBranch: 'gh-pages',
-  trailingSlash: false,
-
+  title: 'Skiller2',
+  tagline: 'Documentation Docusaurus déployée avec GitHub Pages',
+  url: 'https://hrhouma.github.io', // L'URL de base de votre site
+  baseUrl: '/skiller2/', // Nom du projet GitHub (changer à '/' si projet principal)
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
+  favicon: 'img/favicon.ico',
 
-  i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
-  },
+  // Configuration GitHub Pages
+  organizationName: 'hrhouma', // Nom de l'utilisateur GitHub
+  projectName: 'skiller2', // Nom du dépôt
+  deploymentBranch: 'gh-pages', // Branche où les fichiers statiques seront poussés
+  trailingSlash: false, // Recommandé pour GitHub Pages
 
+  // Autres configurations (modifiez selon vos besoins)
   presets: [
     [
       'classic',
       {
         docs: {
-          sidebarPath: './sidebars.ts',
-          editUrl: 'https://github.com/hrhouma/skiller2/tree/main/',
+          sidebarPath: require.resolve('./sidebars.js'),
+          editUrl: 'https://github.com/hrhouma/skiller2/edit/main/',
         },
         blog: {
           showReadingTime: true,
-          editUrl: 'https://github.com/hrhouma/skiller2/tree/main/',
         },
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: require.resolve('./src/css/custom.css'),
         },
-      } satisfies Preset.Options,
+      },
     ],
   ],
-
-  themeConfig: {
-    // Ajoutez ici la configuration du thème
-  } satisfies Preset.ThemeConfig,
 };
 
 export default config;
